@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "UnivPortal"
+    }
+  },
+  "defaultProject": "UnivPortal",
+  "cli": {
+    "analytics": "9c78daeb-5e13-4e19-a333-9b9820073745"
+  }
 }
