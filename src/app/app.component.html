@@ -1,15 +1,15 @@
 
-
-<!-- Toolbar -->
-
-
+<app-navbar id="navbar" class="navbar  navbar-expand-lg navbar-dark fixed-top bg-dark"></app-navbar>
 <div class="container-fluid">
   <div class="row" id="mainContent">
-    <h1>HELLO!!</h1>
-
-    <div class="col-m-9 ml-sm-auto col-md-10 pt-3" id="dashboard">
-      <router-outlet></router-outlet>
-    </div>
+    <!-- <app-sidebar ></app-sidebar> -->
+    <app-sidebar id="sideBar" class="col-sm-3 col-md-2 d-none d-sm-block  sidebar"></app-sidebar> 
+    <!-- <app-main-nav>
+      <div class="col-m-9 ml-sm-auto col-md-10 pt-3" id="dashboard">
+       <h2>hello</h2>
+      </div>
+    </app-main-nav>
+    -->
   </div>
 </div>
 
